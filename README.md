@@ -6,4 +6,4 @@ Welcome to the Cube Personal Page repository! This project is intended as a prac
 
 ## Visit the Website
 
-Browse through the website at https://oliver-sinclair.vercel.app/
+Browse through the website at https://cube-personal-page.vercel.app/
