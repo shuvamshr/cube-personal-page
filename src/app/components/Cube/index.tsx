@@ -9,11 +9,11 @@ interface CubeProps {
 export default function Cube({ cursorX, cursorY }: CubeProps) {
   const cubeDirection = {
     front: "translateZ(225px)",
-    back: "rotateY(180deg) translateZ(225px)",
-    left: "rotateY(-90deg) translateZ(225px)",
-    right: "rotateY(90deg) translateZ(225px)",
-    top: "rotateX(90deg) translateZ(225px)",
-    bottom: "rotateX(-90deg) translateZ(225px)",
+    back: "rotateY(180deg) translateZ(224px)",
+    left: "rotateY(-90deg) translateZ(224px)",
+    right: "rotateY(90deg) translateZ(224px)",
+    top: "rotateX(90deg) translateZ(224px)",
+    bottom: "rotateX(-90deg) translateZ(224px)",
   };
 
   const cubeStyle: React.CSSProperties = {

@@ -17,7 +17,7 @@ export default function Face({ transform, image }: FaceProps) {
   return (
     <div
       style={baseStyle}
-      className="w-full h-full flex justify-center items-center border-black border-lg border-8"
+      className="w-full h-full flex justify-center items-center border-[#10173D]  border-lg border-8"
     >
       {image != "none" ? (
         <Image
@@ -27,7 +27,7 @@ export default function Face({ transform, image }: FaceProps) {
           className="bg-black"
         />
       ) : (
-        <div className="w-full h-full backdrop-blur-xl bg-white/30"></div>
+        <div className="w-full h-full backdrop-blur-xl"></div>
       )}
     </div>
   );

@@ -11,7 +11,7 @@ export default function NavLink({ title, url, rotate }: NavLinkProps) {
   return (
     <Link
       href={url}
-      className={`flex items-center gap-3 hover:scale-125 transition-all ease-out  ${rotate}`}
+      className={`flex items-center gap-3 hover:scale-125 transition-all ease-out text-[#0f1b61] ${rotate}`}
     >
       <Image
         src="/arrow.svg"
