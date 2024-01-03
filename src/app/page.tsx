@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { useState, useEffect } from "react";
 import Cube from "./components/Cube";
 import Navigation from "./components/Navigation";
@@ -18,13 +17,11 @@ export default function Home() {
         const centerX = rect.width / 2;
         const centerY = rect.height / 2;
 
-        // Calculate relative position as a percentage and round to the nearest whole number
         let relativeX = Math.round(((ev.clientX - centerX) / rect.width) * 220);
         let relativeY = -Math.round(
           ((ev.clientY - centerY) / rect.height) * 220
         );
 
-        // Ensure that relativeY doesn't go below -20
         relativeY = Math.max(relativeY, -20);
 
         setMousePosition({ x: relativeX, y: relativeY });
