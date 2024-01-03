@@ -32,7 +32,7 @@ export default function Navigation() {
               In
             </Link>
             <Link
-              href={"https://github.com/shuvamshr"}
+              href={"https://github.com/shuvamshr/cube-personal-page"}
               target="_blank"
               className="font-normal font-medium  text-2xl  hover:-translate-y-3 hover:font-semibold transition-all ease-out"
             >
