@@ -22,7 +22,7 @@ export default function Face({ transform, image }: FaceProps) {
       {image != "none" ? (
         <Image
           src={"/" + image}
-          alt="Face Image"
+          alt="Face Images"
           fill={true}
           className="bg-black"
         />
